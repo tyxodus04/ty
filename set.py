@@ -151,14 +151,23 @@ print(x or y)
 print(not x)
 print(not y) """
 
-a = 10
+""" a = 10
 b = 3
 
 #c = a & b   AND 연산
 #c = a | b   OR 연산
 #c = a ^ b   XOR 연산
 #c = ~ a     NOT 연산
-#c = a << 2  시프트 연산
+c = a << 2  #시프트 연산
+print(c)
+
 c = a >> 2   #시프트 연산
 
-print(c)
+print(c) """
+
+""" my_list = [9, 4, 3, 7, 8, 'hi']
+
+print(2 not in my_list)
+
+my_dic = {"key1" : "v1", "k2" : "v2"}
+print("k" in my_dic) """
