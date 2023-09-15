@@ -187,7 +187,7 @@ print(sum) """
 
 # while 1 ~ 100 홀수, 짝수 출력
 
-i = 1
+""" i = 1
 
 while i <= 100:
     if i % 2 == 0:
@@ -195,14 +195,14 @@ while i <= 100:
     elif i % 2 == 1:
         print("홀수 : ", i)
         
-    i += 1
+    i += 1 """
         
 # while 7의 배수만 출력
 
-i = 1
+""" i = 1
 
 while i <= 100:
     if i % 7 == 0:
         print(i)
         
-    i += 1
+    i += 1 """
