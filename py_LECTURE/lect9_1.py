@@ -105,5 +105,6 @@ for i in iss:
 print("\n-------------------------------\n")
 ct = res_html.select("a.wrap_thumb")
 for j in ct:
-    c = j.attrs["date-tiara-custom"]
+    # c = j.attrs["date-tiara-custom"]
+    c = j.attrs["date-tiara-id"]
     print(c + "\n") """
